@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Java CLI Task Ledger");
-        System.out.println("Week 1 - Day 1");
-        System.out.println("First runnable CLI skeleton");
+        String projectName = "Java CLI Task Ledger";
+        String day = "Week 1 - Day 1";
+        String currentStep = "First runnable CLI skeleton";
+
+        System.out.println(projectName);
+        System.out.println(day);
+        System.out.println(currentStep);
     }
 }
