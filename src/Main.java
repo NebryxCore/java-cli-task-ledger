@@ -1,11 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        String projectName = "Java CLI Task Ledger";
-        String day = "Week 1 - Day 1";
-        String currentStep = "First runnable CLI skeleton";
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(projectName);
-        System.out.println(day);
-        System.out.println(currentStep);
+        System.out.println("Enter your name:");
+        String name = scanner.nextLine();
+
+        System.out.println("Hello, " + name + "!");
     }
 }
+
